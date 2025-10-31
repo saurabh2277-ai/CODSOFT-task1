@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/portfolio/style.css">
+  <script src="https://kit.fontawesome.com/56e3e7135b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+     
+      <nav class="navimg1">
+        <p class="logo"><span class="dot">.</span><span class="s">S</span><span class="name">aurabh</span></p>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Saurabh Kumar Sharma</span>
+          <br>
+          From India
+        </h1>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="\portfolio\Screenshot 2025-10-28 201638.png" alt="photo about me">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated B.Tech student at CSJMU Kanpur, with a strong passion for technology. I am currently honing my skills in web development, focusing on building responsive and user-centric websites. I am eager to leverage my academic foundation and practical coding experience to create innovative digital solutions.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br> Web App interfaces</li>
+              <li><span>App Development</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2025-Current</span><br>Designing Web/App interfaces at UIET</li>
+              <li><span>2024-2025</span><br>Internship at TCS</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021</span><br>High school from GKP</li>
+              <li><span>2023</span><br> Intermediate from GP</li>
+              <li><span>2024</span><br> Enginering From UIET kanpur</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------services------------ -->
+   <div id="services">
+    <div class="container"><h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I am a web Designer</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>2 year experience</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-sketch"></i>
+          <h2>App Design</h2>
+          <p>I am a web Designer</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- -----------------------------portfolio-----  ------------- -->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+        <img src="/portfolio/web-1.jpg">
+        <div class="layer">
+          <h3>WebSites</h3>
+          <p>These  are the website which I make with the help of HTML and CSS. You can visit</p>
+          <a href="#"<i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+        <img height="283px" src="/portfolio/social media 2.jpg">
+        <div class="layer">
+        <h3>Social Media </h3>
+          <p>These  are the Social Media App which I make with the help of HTML, CSS and JS. You can visit</p>
+          <a href="#"<i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+         <img src="/portfolio/music web 3.jpg">
+         <div class="layer">
+          <h3>Music App</h3>
+          <p>These  are the Music App which I make with the help of HTML,CSS and JS. You can visit</p>
+          <a href="#"<i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+<!-- -------------contact-------------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>mycontact@test.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>804823XYZ</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/vaibhav_rex_?igsh=MXZud2l0ZTQ2bXFqOQ=="><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1834JMTDNm/"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/vaibhavss85/"><i class="fa-brands fa-square-linkedin"></i></a>
+        </div>
+        <a class="cv" href="/portfolio/cv.jpg" download>Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="cv submit">Submit</button>
+        </form>
+        <span id ="msg"></span>
+      </div>
+    </div>
+  </div>
+  <footer class="copyright">Copyright <i class="fa-solid fa-copyright"></i>@Saurabh. Made by me </footer>
+ </div>
+  <script >
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+     }
+  </script>
+  <script src="script.js"></script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzEFuLaL2pTHCKlabTte0Aiy_dbwe04jI-aODi-no7o_ao6rgrhYVr52sxjofTMUkGTlg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script1.js"></script>
+</body>
+</html>
